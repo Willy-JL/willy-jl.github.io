@@ -1,8 +1,11 @@
 #  The contact options.
 
 -
+  type: linktree
+  icon: 'fab fa-id-card'
+-
   type: github
-  icon: 'fab fa-github-alt'
+  icon: 'fab fa-github'
 -
   type: twitter
   icon: 'fab fa-twitter'
