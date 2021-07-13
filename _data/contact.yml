@@ -2,7 +2,7 @@
 
 -
   type: linktree
-  icon: 'far fa-user'
+  icon: 'fas fa-user'
   url: 'https://linktr.ee/WillyJL'
 -
   type: github
