@@ -54,7 +54,7 @@
       {% capture url %}
         {%- if entry.type == 'linktree' -%}
           https://linktr.ee/{{ site.linktree.username }}
-        {%- if entry.type == 'github' -%}
+        {%- elsif entry.type == 'github' -%}
           https://github.com/{{ site.github.username }}
         {%- elsif entry.type == 'twitter' -%}
           https://twitter.com/{{ site.twitter.username }}
