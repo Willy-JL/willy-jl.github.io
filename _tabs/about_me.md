@@ -1,11 +1,10 @@
 ---
-title: About
+title: About Me
 icon: fas fa-info
 order: 4
 ---
 
 
-# About me
 Hi and welcome to my blog! I'm [**WillyJL**](https://linktr.ee/WillyJL) and I'm an 18 year old high school student from Italy. My tag-line (and my bio basically everywhere) is "CEO of Procrastination" because I tend to postpone everything way more than I should and always delay until the very last minute ¯\\\_(ツ)\_/¯
 
 ## Skills
