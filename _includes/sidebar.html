@@ -52,9 +52,7 @@
 
     {% for entry in site.data.contact %}
       {% capture url %}
-        {%- if entry.type == 'linktree' -%}
-          https://linktr.ee/{{ site.linktree.username }}
-        {%- elsif entry.type == 'github' -%}
+        {%- if entry.type == 'github' -%}
           https://github.com/{{ site.github.username }}
         {%- elsif entry.type == 'twitter' -%}
           https://twitter.com/{{ site.twitter.username }}

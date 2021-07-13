@@ -27,9 +27,6 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://willy-jl.github.io'
 
-linktree:
-  username: WillyJL             # change to your linktree username
-
 github:
   username: Willy-JL             # change to your github username
 
@@ -40,7 +37,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: WillyJL
-  email: willy.leslie@icloud.com             # change to your email address
+  email:              # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://linktr.ee/WillyJL
