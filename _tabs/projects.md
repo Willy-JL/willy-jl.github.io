@@ -33,3 +33,21 @@ AnimateMyEmojis is a Discord bot that allows non nitro users to use animated emo
 ![Lifeless icon](https://cdn.discordapp.com/attachments/741226265100681229/782016206810775582/unknown.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .right}
 ## **Lifeless SelfBot**
 Lifeless is a selfbot for the Discord platform. It's purpose is to enhance your chatting experience with a wide range of cool and useful commands. The aim is a very stable and reliable program with exclusive features and that is easy to setup and use. For the time being this is a work in progress, with no ETA. This will be closed source and paid (lifetime, no subscriptions, likely 5€ or 10€).
+
+<br>
+
+![Omega icon](https://cdn.discordapp.com/attachments/741226265100681229/864969847657201745/omega.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .left}
+## [**Omega**](https://github.com/Willy-JL/Omega-Theme)
+Omega is my very own custom theme for the BetterDiscord client. I decided to create it because I simply couldn't quite find the theme I wanted and so I started making my own. Omega keeps Discord's original feeling, but makes the whole interface slightly darker and features a consistent color scheme with stunning gradients, which by default are blue to purple. It takes some design inspiration from Nocturnal, but was written by myself for the most part.
+
+<br>
+
+![InstaDownloader icon](https://cdn.discordapp.com/attachments/741226265100681229/864962351480569866/118063983_325062525308988_6769172755963192430_n.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .right}
+## [**InstaDownloader**](https://github.com/Willy-JL/InstaDownloader)
+InstaDownloader is an Instagram bot that replies to direct mesages (aka DMs) with direct links to the media you sent. This way it is possible to easily download images and videos from Instagram. Unfortunately, just like all other project similar in concept, this is largely subject to rate limits and shadow bans due to its design. As of right now I am not actively maintaining the code base and the bot itself is not active (my instance is not running, I don't know if there are mirrors). If I come back to the project I will implement a websocket system to circumvent rate limits and better mimick the web client.
+
+<br>
+
+![F95Checker icon](https://cdn.discordapp.com/attachments/741226265100681229/864984120042717234/f95checker.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .left}
+## [**F95Checker**](hhttps://github.com/Willy-JL/F95Checker)
+F95Checker is an update checker and manager tool for NSFW games on the F95Zone platform. Unlike other similar tools, it strives to be the easiest to setup and use, without bloating the user interface with complex features and unwanted behavior. From the tool you can see your list of games, and for each one you can see the banner image, description, changelog, current version, development status and you have a button to launch it if you have it installed. It also features an alert and inbox checker, to keep you up to speed on what has been happening on the forum, and a background mode, which will notify you of game updates and alerts every 15 minutes.
