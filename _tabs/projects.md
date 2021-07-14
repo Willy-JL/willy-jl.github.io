@@ -31,5 +31,5 @@ AnimateMyEmojis is a Discord bot that allows non nitro users to use animated emo
 <br>
 
 ![Lifeless logo](https://cdn.discordapp.com/attachments/741226265100681229/864921561681494026/logo.png){: style="width: 33%; max-width: 200px" .right}
-## [**Lifeless SelfBot**]
+## **Lifeless SelfBot**
 Lifeless is a selfbot for the Discord platform. It's purpose is to enhance your chatting experience with a wide range of cool and useful commands. The aim is a very stable and reliable program with eclusive features and that is easy to setup and use. For the time being this is a work in progress, with no ETA. This will be closed source and paid (lifetime, no subscriptions, likely 5€ or 10€).
