@@ -48,6 +48,6 @@ InstaDownloader is an Instagram bot that replies to direct mesages (aka DMs) wit
 
 <br>
 
-![F95Checker icon](https://cdn.discordapp.com/attachments/741226265100681229/864984120042717234/f95checker.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .left}
+![F95Checker icon](https://cdn.discordapp.com/attachments/741226265100681229/864987647628541952/f95checker.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .left}
 ## [**F95Checker**](hhttps://github.com/Willy-JL/F95Checker)
 F95Checker is an update checker and manager tool for NSFW games on the F95Zone platform. Unlike other similar tools, it strives to be the easiest to setup and use, without bloating the user interface with complex features and unwanted behavior. From the tool you can see your list of games, and for each one you can see the banner image, description, changelog, current version, development status and you have a button to launch it if you have it installed. It also features an alert and inbox checker, to keep you up to speed on what has been happening on the forum, and a background mode, which will notify you of game updates and alerts every 15 minutes.
