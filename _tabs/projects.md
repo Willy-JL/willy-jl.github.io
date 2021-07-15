@@ -8,7 +8,7 @@ Here you can find a list of the major projects that I have taken on.
 
 <br>
 
-# Actual Projects:
+# Actual Projects
 
 <br>
 
@@ -20,7 +20,7 @@ Soundy is a minimal media controller and visualizer. It shows the currently play
 
 ![A.L.T.I.E.R.A. icon](https://cdn.discordapp.com/avatars/822824094680481792/74ddf49a7dabc1b6b4cc06ad1b0ac580.webp?size=2048){: style="width: 33%; max-width: 200px;" .right}
 ## [**A.L.T.I.E.R.A.**](https://github.com/Willy-JL/ALTIERA-Bot)
-A.L.T.I.E.R.A., also known as Alt bot, is a custom bot I wrote for the Cyberpunk 2077 modding Discord servers. The main feature is the user experience system that tracks level (any kind of message), cred (messages by modders in modding channels) and assistance (messages in help channels). That however is not the only feature: it also allows you to give reputation to other users, receive daily a reward, custom server join and user level-up notification messages and a few other commands. Also the bot is custom themed for the futuristic and cyberpunky atmosphere in the servers.
+A.L.T.I.E.R.A., also known as Alt bot, is a custom bot I wrote for the Cyberpunk 2077 modding Discord servers. The main feature is the user experience system that tracks level (any kind of message), cred (messages by modders in modding channels) and assistance (messages in help channels). That however is not the only feature: it also allows you to give reputation to other users, receive a daily reward, custom server join and user level-up notification messages and a few other commands. Also the bot is custom themed for the futuristic and cyberpunky atmosphere in the servers.
 
 <br>
 
@@ -50,4 +50,45 @@ InstaDownloader is an Instagram bot that replies to direct mesages (aka DMs) wit
 
 ![F95Checker icon](https://cdn.discordapp.com/attachments/741226265100681229/864987647628541952/f95checker.png){: style="width: 33%; max-width: 200px; border-radius: 50%;"" .left}
 ## [**F95Checker**](hhttps://github.com/Willy-JL/F95Checker)
-F95Checker is an update checker and manager tool for NSFW games on the F95Zone platform. Unlike other similar tools, it strives to be the easiest to setup and use, without bloating the user interface with complex features and unwanted behavior. From the tool you can see your list of games, and for each one you can see the banner image, description, changelog, current version, development status and you have a button to launch it if you have it installed. It also features an alert and inbox checker, to keep you up to speed on what has been happening on the forum, and a background mode, which will notify you of game updates and alerts every 15 minutes.
+F95Checker is an update checker and manager tool for NSFW games on the F95Zone platform. Unlike other similar tools, it aims to be the easy to setup and use, without bloating the user interface with complex features and unwanted behavior. For each game you can see the banner image, description, changelog, current version, development status and you have a button to launch it if you have it installed. It also features an alert and inbox checker, to keep you up to speed on what has been happening on the forum, and a background mode, which will notify you of game updates and alerts every 15 minutes.
+
+<br>
+
+<br>
+
+# Cyberpunk 2077 Mods
+
+<br>
+
+## [**Better Minimap**](https://www.nexusmods.com/cyberpunk2077/mods/634)
+Better Minimap was the first mod to address the lingering issue of GPS zoom, causing you to not see upcoming turns. The mod features 4 zoom settings for vehicles and 4 for on foot navigation, along with some aesthetic options. You can either use the presets or install using the installer, which gives you more customization options.
+
+Source: [Willy-JL/BetterMinimap-Installer](https://github.com/Willy-JL/BetterMinimap-Installer)
+
+<br>
+
+## [**Str8up Menu**](https://www.nexusmods.com/cyberpunk2077/mods/779)
+Str8up was the first cheat menu to come to Cyberpunk 2077. Thanks to Cyber Engine Tweaks (mod framework and console addon) including ImGUI it was finally a viable option to make a user interface within the game and Str8up menu was one of the first to make use of this and it brought a much needed GTA-style mod menu to Cyberpunk 2077.
+
+Source: [Willy-JL/Str8up-Menu](https://github.com/Willy-JL/Str8up-Menu)
+
+<br>
+
+## [**CP77 Discord RPC**](https://www.nexusmods.com/cyberpunk2077/mods/986)
+When Cyberpunk 2077 first released I was personally quite shocked to find out that such a massive game didn't include any kind of rich presence support for Discord, and because of this I felt the need to incorporate it myself. The first attempt was quite bumpy as it required a parallel Python process to update the presence info, but later rewriting the mod in C++ and integrating it as an ASI mod made it much more stable and gave it a nearly native feel.
+
+Source: [Willy-JL/CP77-Discord-RPC](https://github.com/Willy-JL/CP77-Discord-RPC)
+
+<br>
+
+## [**Annoy Me No More**](https://www.nexusmods.com/cyberpunk2077/mods/1512)
+In Cyberpunk 2077 there are many annoying and simply stupid limitations and behaviors that you cannot change in any way, and when with the release of Redscript it was finally possible to easily edit the game's core scripts I rushed to make some of what I considered to be the most needed fixes and improvements.
+
+Source: [Files tab on Nexus](https://www.nexusmods.com/cyberpunk2077/mods/1512?tab=files)
+
+<br>
+
+## [**Mod Mover**](https://www.nexusmods.com/cyberpunk2077/mods/2325)
+With many different creators making awesome mods it was bound to happen that someone would make a great mod but package it incorrectly, and while to most users this is not a big deal, in some cases it can be, like for example installing mods with Vortex mod manager will simply not load the mod because it will end up in the wrong folder. Mod Mover aims to fix that by moving (aka renaming, takes no time at all) the incorrectly installed mods to their appropriate location when the game is started, and to optionally move them back when the game is closed.
+
+Source: [Willy-JL/ModMover](https://github.com/Willy-JL/ModMover)
