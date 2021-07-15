@@ -57,6 +57,10 @@ p b, p strong {
   color: var(--text-bold-color);
 }
 
+p a b, p a strong {
+  color: unset;
+}
+
 /* --- Typography --- */
 
 h1 {
