@@ -19,6 +19,15 @@ jobs:
         with:
           fetch-depth: 0  # for posts's lastmod
 
+      - name: Fill in dates for new posts
+        run: |
+          bash tools/dates.sh
+
+      - name: Commit eventual changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: '[Automation] Fill in dates for new posts'
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
