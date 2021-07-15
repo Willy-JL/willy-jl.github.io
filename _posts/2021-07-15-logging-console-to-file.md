@@ -12,7 +12,7 @@ With Python I haven't found much on the internet about achieving this, apart fro
 
 <br>
 
-## The Code
+## The code
 This snippet is designed to be used as a standalone module, that when imported into your script will start logging the console output to a log file.
 ```python
 # logger.py
@@ -106,7 +106,7 @@ Here we instantly return if file output is paused, and then optionally remove co
 
 <br>
 
-Next up are the 3 crucial parts of the script (I didn't include stderr here since it's the exact same as stdout, just with different variable names):
+Next up are the 3 crucial parts of the script (I didn't include `stderr` here since it's the exact same as `stdout`, just with different variable names):
 ```python
 class __stdout_override():
     def write(self, message):
@@ -116,7 +116,7 @@ class __stdout_override():
     def __getattr__(self, name):
         return getattr(_stdout, name)
 ```
-What happens here is that when the write method gets called, it calls back to the original `sys.stdout.write` functionality (remember that we backed it up inside `_stdout`) and afterwars we also write the same message to the log file. The `__getattr__` method is required since we want to keep all the other original functionality of the streams, simply modifying what we need to log output to the file, and all it does is refer back to the original stream we backed up at the start.
+What happens here is that when the write method gets called, it calls back to the original `sys.stdout.write` functionality (remember that we backed it up inside `_stdout`) and afterwards we also write the same message to the log file. The `__getattr__` method is required since we want to keep all the other original functionality of the streams, simply modifying what we need to log output to the file, and all it does is refer back to the original stream we backed up at the start.
 ```python
 class __stdin_override():
     def readline(self):
@@ -144,11 +144,11 @@ def pause_file_output():
     _pause_file_output = False
 pause = pause_file_output
 ```
-As you might have noticed, this is the only object that doesn't start with a `_` as this is intended to be used by the user (in case you didn't know, a single `_` in front of variable/function/class names indicates that it is not intended to be used, but you can if you really have to, while a double `__` indicates mostly the same thing but to a higher degree, you should really avoid using internal members marked with two `__`). The purpose of this function if to allow pausing the file output to be paused in a `with ...():` block, meaning that while code inside such block is being executed, nothing will be output to the file. More on this later on.
+As you might have noticed, this is the only object that doesn't start with a `_` as this is intended to be used by the user (in case you didn't know, a single `_` in front of variable/function/class names indicates that it is not intended to be used, but you can if you really have to, while a double `__` indicates mostly the same thing but to a higher degree, you should really avoid using internal members marked with two `__`). The purpose of this function is to allow the file output to be paused inside a `with ...():` block, meaning that while code inside such block is being executed, nothing will be output to the file. More on this later on.
 
 <br>
 
-Now that we set everything up, we just need to apply out overrides:
+Now that we set everything up, we just need to apply our overrides:
 ```python
 open("log.txt", "w").close()
 ```
@@ -183,7 +183,8 @@ msg = input("user input also gets saved: ")
 # And you will see what you typed into the console right in your log file!
 
 0/0
-# This will cause an exception, but that will be caught and you will be able to see it in the log file!
+# This will cause an exception, but that will be caught and you will be
+# able to see it in the log file!
 ```
 
 <br>
