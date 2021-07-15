@@ -1,6 +1,6 @@
 ---
 title: Logging Console to File
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2021-07-15 19:44:21 +0000
 categories: [Python, Snippets]
 tags: [python, snippet, console, logging]
 ---
