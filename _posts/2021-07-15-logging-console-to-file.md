@@ -5,7 +5,6 @@ categories: [Python, Snippets]
 tags: [python, snippet, console, logging]
 ---
 
-## Introduction
 Whether you are making a program with a user interface or a commandline application, being able to catch and store console output is often crucial both for catching bugs and error messages but also to keep track of what is happening in your program.
 
 With Python I haven't found much on the internet about achieving this, apart from a few posts talking about overriding `sys.stdout` to also write to a file, but not everything gets written to the standard output.
