@@ -34,7 +34,7 @@ Sure this works fine, but when you make some changes you will end up having to c
 <br>
 
 ## The solution
-You can mitigate these issues byimplementing an event-callback system. You assign some callbacks to an event, and when you run that event it will run all associated callbacks. Let's have a look at how we could simplify our example:
+You can mitigate these issues by implementing an event-callback system. You assign some callbacks to an event, and when you run that event it will run all associated callbacks. Let's have a look at how we could simplify our example:
 ```python
 from events import run_callbacks
 
