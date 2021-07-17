@@ -1,6 +1,6 @@
 ---
 title: Events and Callbacks
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2021-07-17 16:22:04 +0000
 categories: [Python, Code Better]
 tags: [python, tips, code better, events and callbacks]
 ---
