@@ -90,7 +90,7 @@ This way we preserve a copy of the original functionality used internally by Pyt
 
 <br>
 
-Then we define the function that ctually handles writing to the log file:
+Then we define the function that actually handles writing to the log file:
 ```python
 def _file_write(message, no_color=True):
     if _pause_file_output:
