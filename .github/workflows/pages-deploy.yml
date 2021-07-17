@@ -12,6 +12,7 @@ jobs:
   continuous-delivery:
 
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Skip Build]')"
 
     steps:
       - name: Checkout
