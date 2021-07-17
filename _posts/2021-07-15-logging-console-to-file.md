@@ -189,6 +189,6 @@ msg = input("user input also gets saved: ")
 <br>
 
 ## Updates and support
-In the future if I find updates or improvements for this script I will likely update it on [this gist](https://gist.github.com/Willy-JL/3eaa171144b3bb0a4602c7b537f90036).
+In the future if I make updates or find improvements for this script I will likely update it on [this gist](https://gist.github.com/Willy-JL/3eaa171144b3bb0a4602c7b537f90036).
 
-If you have doubts or issues, feel free to contact me! (you have many links available at the bottom of the sidebar)
+If you have doubts or issues, feel free to contact me! You can either use the comment section below or message me using the links at the bottom of the sidebar!
